@@ -1,0 +1,353 @@
+
+@import url('style.css');
+@import url('product-section.css');
+
+  
+/* media query */
+
+@media screen and (max-width: 1500px)  {
+    /* navbar code */
+ .nav{
+    padding-top:10px;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+ }
+
+ }
+
+ @media screen and (max-width: 1450px)  {
+    /* section-1 code */
+    #section-1-col-1{
+        width:54%;
+        gap:20px;
+        padding:30px 0 0 20px;
+      }
+
+      .row-1{
+        width:90%;
+     }
+
+     .row-1 .heading {
+        font-size:35px;
+     }
+
+     .row-2> *{
+        width: 20%;
+        padding:8px 10px;
+        margin-left:-10px;
+        font-size:14px;
+     }
+
+     .black-divider{
+        padding:0;
+        height:50px;
+        width:1px;
+        border:1px solid gray;
+     }
+
+     /* section-2 code */
+
+     #section-2{
+        flex-direction: column;
+        align-items: space-evenly;
+        justify-content: center;
+        padding:10px;
+     }
+
+     .right-combo-box{
+        margin-top:10px;
+       }
+
+
+       /* section-3 code */
+
+    
+
+       .button-box{
+        width:20%;
+       }
+
+       .button-box img{
+        width:100%;
+       }
+       
+       .products-box{
+         width:80%;
+       }
+
+       .product-box-item {
+        width:30%;
+       }
+    
+       .product-box-item>*{
+       width:90%;
+       }
+
+       .product-box-item a{
+        /* border:2px solid yellow; */
+        width:90%;
+       }
+
+       .product-box-item a img {
+        width:100%;
+        height:100%;
+       }
+
+       /* section-5 code */
+        .section-5-heading{
+            font-size: 25px;
+        }
+
+        .purple-heading-line-1 ,  .purple-heading-line-2{
+          font-size:35px;
+          text-align: center;
+        }
+
+        .section-5-content{
+            align-items:center;
+            justify-content: center; 
+           }
+
+
+           /* section-6 code */
+
+           
+       .section-6-3rd-row .row-2{
+        width:100%;
+            }
+
+            .section-6-3rd-row .row-2 a div {
+                width:fit-content;
+                font-size: 15px;
+                gap:6px;
+            }
+
+            .section-6-3rd-row .row-2 a div svg{
+               width:45px;
+               height: 40px;
+            }
+
+            .black-divider {
+                width:2px;
+            }
+
+    }
+
+    @media screen and (max-width: 1000px)  {
+
+
+        /* section-1 code */
+        
+        #section-1{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #section-1-col-1{
+            justify-content: center;
+            align-items: center;
+            padding:0;
+            }
+
+        #section-1 > *{
+            width:100%;
+        }
+
+      
+
+          #section-1-col-1 > *{
+            margin:0;
+            padding:0;
+            /* border:2px solid blue; */
+          }
+
+     
+
+          .row-2> *{
+            width: 20%;
+            padding:6px 8px;
+            margin-left:-10px;
+            font-size:12px;
+         }
+
+         .row-2 img{
+            width:20px;
+            height: 25px;
+         }
+
+         .black-divider{
+            padding:0;
+            height:50px;
+            width:1px;
+            border:1px solid gray;
+         }
+
+         /* title code */
+         .title p{
+            font-size:26px;
+           }
+         
+         /* section-2 code */
+         .right-combo-box{
+             flex-direction: column;
+           }
+
+           /* section-3 code */
+
+           #section-3, #section-4{
+            flex-direction:column;
+           }
+
+            /* section-5 code */
+
+            .section-5-heading{
+              text-align: center;
+            }
+
+            .section-5-buttons{
+                flex-direction: column;
+                align-items: center;
+                
+            }
+
+            .section-5-buttons{
+                width:100%;
+                justify-content: center;
+               }
+
+               .section-5-content{
+               position: static;
+               }
+        
+          
+        }
+   
+    
+
+ @media screen and (max-width: 600px)  {
+
+    /* navbar code */
+    .search-box-container{
+        font-size:13px;
+    }
+  
+    .menu-item{
+        margin: 0 10px;
+        font-size:12px;
+    }
+
+    /* main-container code */
+    .main-section-container{
+        margin-top: 70px;
+    }
+
+    /* title code */
+    .title p{
+        font-size:22px;
+       }
+
+       /* section-1 code */
+       #section-1-col-2{
+        /* border:2px solid red; */
+        margin-bottom:-100px;
+      }
+
+
+    /* section-2 code */
+
+    #section-2 div{
+       text-align: center;
+    }
+
+    #section-2 img{
+        width:80%;
+        margin:auto;
+    }
+
+
+    /* section-5 code */
+
+    .purple-heading-line-1 ,  .purple-heading-line-2{
+        font-size:25px;
+        text-align: center;
+      }
+
+       /* section-6 code */
+
+            .section-6-content{
+                margin: auto;
+            }
+
+
+            .section-6-3rd-row .row-2 {
+                /* border: 2px solid white; */
+               flex-direction: column;
+              text-align: center;
+            }
+
+            .section-6-3rd-row .row-2 a {
+               width:90%;
+               
+            }
+
+            .black-divider {
+                display: none;
+            }
+
+    }
+
+    @media screen and (max-width: 340px)  {
+
+
+        /* navbar code */
+        .search-box-container{
+            font-size:12px;
+        }
+      
+        .menu-item{
+            margin: 0 7px;
+            font-size:12px;
+        }
+
+        /* section-1 code */
+
+        .row-2{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #section-1-col-2{
+            /* border:2px solid red; */
+            margin-bottom:-150px;
+          }
+       
+        .black-divider{
+            display: none;
+        }
+
+           
+        }
+
+
+
+     
+
+
+
+
+
+
+
+
+ 
+
+
+   
+    
+
+
+ 
